@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu"
+    android:background="@mipmap/back_login_profile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:fontFamily="@font/gotham_bold"
+        android:layout_marginTop="200dp"
+    />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/style_button_menu"
+        android:fontFamily="@font/gotham_bold"
+        android:padding="20dp"
+        android:text="My Profile"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/btnMyActivity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style_button_menu"
+        android:fontFamily="@font/gotham_bold"
+        android:padding="20dp"
+        android:text="My Activity"
+        android:textColor="#000000"
+    />
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style_button_menu"
+        android:fontFamily="@font/gotham_bold"
+        android:padding="20dp"
+        android:text="Back"
+        android:textColor="#000000"
+    />
+
+</LinearLayout>

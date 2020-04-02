@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".myprofile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@mipmap/back_profile"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:padding="7dp"
+            android:background="@drawable/circle_stroke">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/circle"
+                android:padding="3dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/profile" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="KADEK ARI WIJAYA"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:fontFamily="@font/gotham_bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="18101056"
+            android:textColor="#80FFFFFF"
+            android:textSize="15dp"
+            android:fontFamily="@font/gotham_book"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gotham_bold"
+                android:text="Jurusan"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/gotham_book"
+                android:text="TI-MTI"
+                android:textColor="@color/colorSecond"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gotham_bold"
+                android:text="Email"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/gotham_book"
+                android:text="ariwijayaaaa@gmail.com"
+                android:textColor="@color/colorSecond"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gotham_bold"
+                android:text="Phone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/gotham_book"
+                android:text="+6287862256245"
+                android:textColor="@color/colorSecond"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/style_button_menu_black"
+            android:fontFamily="@font/gotham_bold"
+            android:padding="20dp"
+            android:text="Back"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+</LinearLayout>
